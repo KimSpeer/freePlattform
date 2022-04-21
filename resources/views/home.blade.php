@@ -4,7 +4,7 @@
     <div class="container">
         <div class="row">
             <div class="col-3 p-5">
-                <img src="images/1525041.jpeg" style="width: 15rem; height:15rem" class="rounded-circle">
+                <img src="https://www.gettyimages.de/gi-resources/images/500px/983794168.jpg" style="width: 15rem; height:15rem" class="rounded-circle">
             </div>
             <div class="col-9 pt-5">
                 <div>
@@ -15,10 +15,10 @@
                     <div class="pe-3 pt-2"><strong>23K</strong> followers</div>
                     <div class="pe-3 pt-2"><strong>212</strong> following</div>
                 </div>
-                <div class="pt-4 fw-bold">Playground</div>
-                <div>Here will come a little Profile description soon</div>
+                <div class="pt-4 fw-bold">{{$user->profile->title}}</div>
+                <div>{{$user->profile->description}}</div>
                 <div><a class="text-decoration-none color-black" style="color:rgb(0, 109, 149)"
-                        href="#">www.playground.com</a></div>
+                        href="#">{{$user->profile->url}}</a></div>
             </div>
         </div>
         <div class="row pt-5">
