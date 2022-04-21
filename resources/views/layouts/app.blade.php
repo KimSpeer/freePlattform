@@ -23,11 +23,11 @@
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
-                <a class="navbar-brand" href="{{ url('/') }}">
+                <a class="navbar-brand d-flex" href="{{ url('/') }}">
                    <div>
-                       <img scr="{{url('/svg/playgroundLogo.svg')}}" alt="" />
+                    <img src="/svg/playgroundLogo.svg" style="height: 20px; border-right: 1px solid #333; padding-right:20px " alt="Playground Logo">
                     </div>
-                    <div> Playground </div>
+                    <div style="padding-left: 15px; padding-top:2"> Playground </div>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
